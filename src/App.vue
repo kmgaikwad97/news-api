@@ -6,7 +6,7 @@
         <div class="container-fluid">
 
             <div class="logo-design" style="border: 2px solid white; border-radius: 200px 0px 200px 0px;">
-              <a class="navbar-brand m-3" href="#">Sports</a>
+              <a class="navbar-brand m-3" href="/">Sports</a>
             </div>  
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
