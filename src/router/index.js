@@ -12,10 +12,10 @@ const routes = [
     component: Home,
   },
   {
-    path:"/categories/:id/:page",
+    path:"/categories/:title/:id",
     name:"Categories",
     component: Categories
-  }
+  },
 ];
 
 const router = new VueRouter({

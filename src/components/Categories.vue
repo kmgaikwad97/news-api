@@ -33,6 +33,7 @@ export default {
     },
 
     async mounted() {
+       var id1 = this.$route.params.id
         const result = await axios.get(
             "https://livescore6.p.rapidapi.com/news/v2/list-by-sport", {
                 headers: {
@@ -40,7 +41,7 @@ export default {
                     "X-RapidAPI-Host": "livescore6.p.rapidapi.com",
                 },
                 params: {
-                    category: '2021020913321150030',
+                    category: id1,
                     page: '1'
                 },
             }
